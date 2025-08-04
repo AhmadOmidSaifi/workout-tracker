@@ -7,14 +7,22 @@
 A simple yet powerful Python-based workout tracker that uses **natural language processing** (via ChatGPT API & Nutritionix) to interpret exercise input and automatically logs the data into a **Google Sheet** using the Sheety API.
 
 ---
-
 ## 🚀 Features
 
-- 🧠 Accepts natural language input like _"I ran 2 miles and did 30 minutes of yoga"_
-- 🔍 Uses Nutritionix NLP API to extract exercise data (duration, calories, etc.)
-- 📝 Automatically logs each workout entry with date, time, and calories burned
-- 📊 Sends the data to a connected Google Sheet via Sheety API
-- 🔐 Secure API key storage using `.env` variables
+- 🧠 **Natural Language Input** — Just say things like *"I ran 2 miles and did 30 minutes of yoga"*.
+- 🔍 **NLP-Powered Parsing** — Uses the **Nutritionix API** to extract detailed workout info (duration, calories, type).
+- 🗓️ **Automatic Logging** — Records each session with date, time, and calories burned.
+- 📊 **Google Sheets Integration** — Sends your workouts directly to a Google Sheet via **Sheety API**.
+- 🔐 **Secure Key Management** — All API credentials are stored safely using `.env` environment variables.
+
+---
+
+## 🛠️ Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/workout-tracker.git
+cd workout-tracker
 
 ---
 
